@@ -21,17 +21,12 @@
         "lint-staged": "^10.2.11"
     },
     "lint-staged": {
-        "linters": {
-            "src/**/*.ts": [
-                "npm run lint:ts",
-                "git add"
-            ],
-            "src/**/*.less": [
-                "npm run lint:style",
-                "git add"
-            ]
-        },
-        "ignore": []
+        "src/**/*.ts": [
+            "npm run lint:ts"
+        ],
+        "src/**/*.less": [
+            "npm run lint:style"
+        ]
     },
     "husky": {
         "hooks": {
