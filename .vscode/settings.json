@@ -1,9 +1,59 @@
 {
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.tslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "[markdown]": {
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+    "files.watcherExclude": {
+        "**/.git/*/**": true,
+        "**/node_modules/*/**": true,
+        "**/dist/*/**": true,
+        "**/coverage/*/**": true
+    },
+    "files.associations": {
+        "*.json": "jsonc",
+        ".prettierrc": "jsonc",
+        ".stylelintrc": "jsonc"
+    },
+    "ngschematics.schematics": [
+        "ng-alain"
+    ],
     "git.ignoreLimitWarning": true,
     "cSpell.words": [
+        "alain",
+        "angularclass",
+        "antd",
+        "antv",
+        "codecov",
         "codelyzer",
+        "delon",
         "devkit",
+        "eofline",
+        "isnan",
         "jasminewd",
-        "tslib"
+        "mockjs",
+        "nospace",
+        "onespace",
+        "paren",
+        "qrious",
+        "quotemark",
+        "screenfull",
+        "stylelint",
+        "tinymce",
+        "tslib",
+        "ueditor"
     ]
 }

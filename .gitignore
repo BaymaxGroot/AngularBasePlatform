@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+# compiled file
+/pack
+
 # IDE - VSCode
 .vscode/*
 !.vscode/settings.json
@@ -8,5 +11,7 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
+
+# project files
 /src/environments/environment.ts
 /src/environments/environment.prod.ts
