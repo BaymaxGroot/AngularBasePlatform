@@ -14,4 +14,5 @@
 
 # project files
 /src/environments/environment.ts
+/src/environments/environment.hmr.ts
 /src/environments/environment.prod.ts

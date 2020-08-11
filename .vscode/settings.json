@@ -54,6 +54,7 @@
         "stylelint",
         "tinymce",
         "tslib",
-        "ueditor"
+        "ueditor",
+        "xmll"
     ]
 }
